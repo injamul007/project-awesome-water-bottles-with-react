@@ -7,7 +7,7 @@ const Bottle = ({bottleData}) => {
   return (
     <div className='bottle_card'>
       <h2>Category: {category}</h2>
-      <img style={{width:'250px'}} src={img} alt='water_bottles_image' />
+      <img src={img} alt='water_bottle_image' />
       <h2>Name: {name}</h2>
       <h2>Price: {price}</h2>
     </div>
